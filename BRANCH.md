@@ -52,3 +52,13 @@ Exemplo02: git switch main
 git branch -b nome_da_branch_que_deseja_excluir
 
 Exemplo: git branch -b fix_botao_da_tela_de_login
+
+## alterar o nome de uma branch
+Primeiramente, certifique-se que esta dentro da branch main, se nao estiver use:
+git switch main
+
+Segundo, verifique se a branch main esta atualizada com o comando
+git pull origin main
+
+trazer os dados da branch para a  main
+git merge nome_da_branch
